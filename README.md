@@ -1,4 +1,4 @@
-#VSCODE_THEME_Qin
+###TmTheme, a vscode theme created by Qinning
 
 A self-made theme for ***vscode***
 
