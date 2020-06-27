@@ -2,19 +2,8 @@
 	"name": "TmTheme",
 	"type": "light",
 	"colors": {
-		"editor.background": "#e0e2d3",
-		"editor.foreground": "#000000",
-		"button.background": "#5d7900",
-		"button.foreground": "#86ad02",
-		"activityBar.activeBackground": "#86ad02",
-		"activityBar.dropBorder":"#e0e2d3",
-		"activityBar.border": "#e0e2d3",
-		"activityBar.foreground": "#1D5902",
-		"activityBar.inactiveForeground": "#1D5902",
-		"activityBar.background": "#e0e2d3",
-		"activityBar.activeFocusBorder": "#346b00",
-		"sideBar.background": "#e0e2dd"
-
+		"editor.background": "#f6f7f0",
+		"editor.foreground": "#0D0D0D"
 	},
 	"tokenColors": [
 		{
@@ -25,7 +14,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#949494"
+				"foreground": "#AAAAAA"
 			}
 		},
 		{
@@ -33,7 +22,7 @@
 			"scope": "comment.block.preprocessor",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#949494"
+				"foreground": "#AAAAAA"
 			}
 		},
 		{
@@ -43,14 +32,7 @@
 				"comment.block.documentation"
 			],
 			"settings": {
-				"foreground": "#551441"
-			}
-		},
-		{
-			"name": "Comments:line",
-			"scope":["comment.block","comment.line"],
-			"settings": {
-				"foreground": "#39af1c",
+				"foreground": "#448C27"
 			}
 		},
 		{
@@ -74,9 +56,7 @@
 				"storage"
 			],
 			"settings": {
-
-				"foreground": "#1D5902",
-				"fontStyle": "italic bold" 
+				"foreground": "#4B83CD"
 			}
 		},
 		{
@@ -107,8 +87,7 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#f09014",
-				"fontStyle": "italic underline"
+				"foreground": "#7A3E9D"
 			}
 		},
 		{
@@ -119,7 +98,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#da3a09"
+				"foreground": "#AA3731"
 			}
 		},
 		{
@@ -130,8 +109,8 @@
 				"support.class"
 			],
 			"settings": {
-				"fontStyle": "italic bold underline",
-				"foreground": "#261E59"
+				"fontStyle": "bold",
+				"foreground": "#7A3E9D"
 			}
 		},
 		{
@@ -156,14 +135,14 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#a75d1c"
+				"foreground": "#AB6526"
 			}
 		},
 		{
 			"name": "Strings",
 			"scope": "string",
 			"settings": {
-				"foreground": "#28402E"
+				"foreground": "#448C27"
 			}
 		},
 		{
@@ -177,7 +156,7 @@
 			"name": "Strings: Regular Expressions",
 			"scope": "string.regexp",
 			"settings": {
-				"foreground": "#1D5902"
+				"foreground": "#4B83CD"
 			}
 		},
 		{
@@ -207,17 +186,6 @@
 			}
 		},
 		{
-			"name":"function",
-			"scope":[
-				"meta.function-call"
-			],
-			"settings": {
-				"foreground": "#690707",
-				"fontStyle": ""
-
-			}
-		},
-		{
 			"name": "HTML: Tags",
 			"scope": [
 				"meta.tag",
@@ -233,7 +201,7 @@
 			"name": "HTML: Tag Names",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#1D5902"
+				"foreground": "#4B83CD"
 			}
 		},
 		{
@@ -336,7 +304,7 @@
 			"name": "Markup: Link",
 			"scope": "meta.link",
 			"settings": {
-				"foreground": "#1D5902"
+				"foreground": "#4B83CD"
 			}
 		},
 		{
@@ -395,7 +363,7 @@
 			"name": "Markup Lists",
 			"scope": "markup.list",
 			"settings": {
-				"foreground": "#1D5902"
+				"foreground": "#4B83CD"
 			}
 		},
 		{
@@ -442,67 +410,11 @@
 			}
 		},
 		{
-			"name": "back",
-			"scope":["activityBar","sideBar","sideBar.foreground"],
-			"settings": {
-				"foreground": "#e0e3d3",
-			},
-		},
-		{
-			"name": "...",
-			"scope":["editorGroup.border"],
-			"settings": {
-				"foreground": "#531e3b",
-			},
-		},
-		{
 			"name": "Button.background",
 			"scope": "button.background",
 			"settings": {
 				"foreground": "#f6f7f0",
 			}
-		},
-		{
-			"name": "Button.foreground",
-			"scope": "button.foreground",
-			"settings": {
-				"foreground": "#ebfc8c",
-			}
-		},
-		{
-			"name": "Button.hoverBackground",
-			"scope": "button.hoverBackground",
-			"settings": {
-				"foreground": "#c0dd19",
-			}
-		},
-		{
-			"name": "Checkbox.background",
-			"scope": "checkbox.background",
-			"settings": {
-				"foreground": "#f6f7f0",
-			}
-		},
-		{
-			"name": "Checkbox.foreground",
-			"scope": "checkbox.foreground",
-			"settings": {
-				"foreground": "#ebfc8c",
-			}
-		},
-		{
-			"name": "Checkbox.hoverBackground",
-			"scope": "checkbox.hoverBackground",
-			"settings": {
-				"foreground": "#c0dd19",
-			}
-		},
-		{
-			"name": "Sideback",
-			"scope": "sidebar",
-			"settings": {
-				"foreground": "#c3da1a",
-			}
-		},
+		}
 	]
 }

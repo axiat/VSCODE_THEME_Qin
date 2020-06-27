@@ -51,8 +51,9 @@
 			"scope":["comment.block","comment.line"],
 			"settings": {
 				"foreground": "#39af1c",
+				"fontStyle": 
 			}
-		},
+		}
 		{
 			"name": "Invalid - Illegal",
 			"scope": "invalid.illegal",

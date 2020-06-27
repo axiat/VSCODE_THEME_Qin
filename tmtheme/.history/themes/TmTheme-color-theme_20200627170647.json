@@ -2,19 +2,8 @@
 	"name": "TmTheme",
 	"type": "light",
 	"colors": {
-		"editor.background": "#e0e2d3",
-		"editor.foreground": "#000000",
-		"button.background": "#5d7900",
-		"button.foreground": "#86ad02",
-		"activityBar.activeBackground": "#86ad02",
-		"activityBar.dropBorder":"#e0e2d3",
-		"activityBar.border": "#e0e2d3",
-		"activityBar.foreground": "#1D5902",
-		"activityBar.inactiveForeground": "#1D5902",
-		"activityBar.background": "#e0e2d3",
-		"activityBar.activeFocusBorder": "#346b00",
-		"sideBar.background": "#e0e2dd"
-
+		"editor.background": "#f6f7f0",
+		"editor.foreground": "#0508a1"
 	},
 	"tokenColors": [
 		{
@@ -25,7 +14,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#949494"
+				"foreground": "#AAAAAA"
 			}
 		},
 		{
@@ -33,7 +22,7 @@
 			"scope": "comment.block.preprocessor",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#949494"
+				"foreground": "#AAAAAA"
 			}
 		},
 		{
@@ -43,14 +32,7 @@
 				"comment.block.documentation"
 			],
 			"settings": {
-				"foreground": "#551441"
-			}
-		},
-		{
-			"name": "Comments:line",
-			"scope":["comment.block","comment.line"],
-			"settings": {
-				"foreground": "#39af1c",
+				"foreground": "#448C27"
 			}
 		},
 		{
@@ -76,7 +58,7 @@
 			"settings": {
 
 				"foreground": "#1D5902",
-				"fontStyle": "italic bold" 
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -107,8 +89,7 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#f09014",
-				"fontStyle": "italic underline"
+				"foreground": "#7A3E9D"
 			}
 		},
 		{
@@ -119,7 +100,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#da3a09"
+				"foreground": "#AA3731"
 			}
 		},
 		{
@@ -130,7 +111,7 @@
 				"support.class"
 			],
 			"settings": {
-				"fontStyle": "italic bold underline",
+				"fontStyle": "bold",
 				"foreground": "#261E59"
 			}
 		},
@@ -156,14 +137,14 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#a75d1c"
+				"foreground": "#AB6526"
 			}
 		},
 		{
 			"name": "Strings",
 			"scope": "string",
 			"settings": {
-				"foreground": "#28402E"
+				"foreground": "#448C27"
 			}
 		},
 		{
@@ -204,17 +185,6 @@
 			],
 			"settings": {
 				"foreground": "#AAAAAA"
-			}
-		},
-		{
-			"name":"function",
-			"scope":[
-				"meta.function-call"
-			],
-			"settings": {
-				"foreground": "#690707",
-				"fontStyle": ""
-
 			}
 		},
 		{
@@ -440,20 +410,6 @@
 			"settings": {
 				"foreground": "#434343"
 			}
-		},
-		{
-			"name": "back",
-			"scope":["activityBar","sideBar","sideBar.foreground"],
-			"settings": {
-				"foreground": "#e0e3d3",
-			},
-		},
-		{
-			"name": "...",
-			"scope":["editorGroup.border"],
-			"settings": {
-				"foreground": "#531e3b",
-			},
 		},
 		{
 			"name": "Button.background",

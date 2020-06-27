@@ -7,11 +7,8 @@
 		"button.background": "#5d7900",
 		"button.foreground": "#86ad02",
 		"activityBar.activeBackground": "#86ad02",
-		"activityBar.dropBorder":"#e0e2d3",
-		"activityBar.border": "#e0e2d3",
-		"activityBar.foreground": "#1D5902",
-		"activityBar.inactiveForeground": "#1D5902",
-		"activityBar.background": "#e0e2d3",
+		"activityBar.inactiveBackground":"#e0e2d3",
+		"activityBar.inactiveForeground": "#e0e2d3",
 		"activityBar.activeFocusBorder": "#346b00",
 		"sideBar.background": "#e0e2dd"
 
@@ -25,7 +22,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#949494"
+				"foreground": "#AAAAAA"
 			}
 		},
 		{
@@ -33,7 +30,7 @@
 			"scope": "comment.block.preprocessor",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#949494"
+				"foreground": "#AAAAAA"
 			}
 		},
 		{
@@ -43,14 +40,7 @@
 				"comment.block.documentation"
 			],
 			"settings": {
-				"foreground": "#551441"
-			}
-		},
-		{
-			"name": "Comments:line",
-			"scope":["comment.block","comment.line"],
-			"settings": {
-				"foreground": "#39af1c",
+				"foreground": "#448C27"
 			}
 		},
 		{

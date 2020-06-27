@@ -1,8 +1,10 @@
-###TmTheme, a vscode theme created by Qinning
+_TmTheme, a vscode theme created by Qinning_
 
 A self-made theme for ***vscode***
 
 I was trying to write a vscode extension and among all kinds a vscode theme is definitely friendly for a beginner.
+
+The color theme is inspired by the school badge of WHU.
 
 _2020.06.27_
 

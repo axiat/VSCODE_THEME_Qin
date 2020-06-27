@@ -52,7 +52,7 @@
 			"settings": {
 				"foreground": "#39af1c",
 			}
-		},
+		}
 		{
 			"name": "Invalid - Illegal",
 			"scope": "invalid.illegal",
